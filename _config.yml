@@ -17,10 +17,10 @@ locale: "en"
 lang:  "en-us"
 title: "Kevin Yang"  # title of your website
 name:  "Kevin Yang"  # your name or organization name
-email: "mhy-kevin-dev@gmail.com"
+email: "asr.mhyang@gmail.com"
 webaddress: "http://mhy-kevin-dev.github.io"  # to avoid messing with url or baseurl
 
-tagline: "mhy-kevin-dev.github.io"
+tagline: "life; code; coffee;"
 description: > # this means to ignore newlines until "baseurl:"
   My personal website
 
