@@ -15,14 +15,14 @@
 # in the templates via {{ site.myvariable }}.
 locale: "en"
 lang:  "en-us"
-title: "mhy-kevin-dev"  # title of your website
+title: "Kevin Yang"  # title of your website
 name:  "Kevin Yang"  # your name or organization name
 email: "mhy-kevin-dev@gmail.com"
 webaddress: "http://mhy-kevin-dev.github.io"  # to avoid messing with url or baseurl
 
 tagline: "mhy-kevin-dev.github.io"
 description: > # this means to ignore newlines until "baseurl:"
-  The personal website
+  My personal website
 
 
 # There is much confusion around the use of the settings for url and baseurl.
