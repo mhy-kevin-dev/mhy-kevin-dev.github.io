@@ -1,87 +1,153 @@
+# Welcome to Jekyll!
 #
-# This file contains configuration flags to customize your site
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
 #
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# Name of your site (displayed in the header)
-name: Kevin Yang
+# # # # Site settings # # # #
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+locale: "en"
+lang:  "en-us"
+title: "mhy-kevin-dev"  # title of your website
+name:  "Kevin Yang"  # your name or organization name
+email: "mhy-kevin-dev@gmail.com"
+webaddress: "http://mhy-kevin-dev.github.io"  # to avoid messing with url or baseurl
 
-# Short bio or description (displayed in the header)
-description: speech algorithm engineer from somewhere
+tagline: "mhy-kevin-dev.github.io"
+description: > # this means to ignore newlines until "baseurl:"
+  The personal website
 
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 
+# There is much confusion around the use of the settings for url and baseurl.
+# With newest version of Jekyll, you *should* only need to specify baseurl,
+#   and that ONLY if your site is hosted under a subdirectory.
+#   An example of this would be for GitHub Project pages, hosted at http://YOU.github.io/PROJECT
+#   In this case, set the baseurl to "/PROJECT".
 #
-# Flags below are optional
+# For GitHub User pages, hosted at http://YOU.github.io
+#  you DO NOT need to include the baseurl (in fact, things will break if you do).
 #
-
-# Includes an icon in the footer for each username you enter
-footer-links:
-  dribbble:
-  email:
-  facebook:
-  flickr:
-  github: mhy-kevin-dev
-  instagram:
-  linkedin: ming-han-yang-480145109
-  pinterest:
-  rss: # just type anything here for a working RSS icon
-  twitter: 
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
-  mediumblog: mh.yang  # not support yet
+# The newest version of Jekyll includes the absolute_url and relative_url filters
+#  and I use them in my templates to hopefully make hrefs *just work* no matter what.
+#  (By doing that, we shouldn't even need to use site.url in the template at all.)
+#
+# see also:  http://downtothewire.io/2015/08/15/configuring-jekyll-for-user-and-project-github-pages/
+# and:  https://github.com/jekyll/jekyll/pull/5399
+baseurl:  ""  # empty for GitHub User page; "/your-repo" (NO trailing slash) for Project page
+url:  # pretty sure this is auto-set during build, so I'd leave it alone if I were you
 
 
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
+
+# # # # Social, API, etc. settings # # # #
+
+# Disqus settings for comments
 disqus:
+   shortname: mhy-kevin-dev-github-io  # see https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
 
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
+# Google analytics
+google_analytics: # add your UA id here
 
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
-# Used for Sitemap.xml and your RSS feed
-url: https://mhy-kevin-dev.github.io
+# Social media
+twitter_username:
+github_username:  mhy-kevin-dev
 
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-baseurl: /
 
-#
-# !! You don't need to change any of the configuration flags below !!
-#
 
-permalink: /:title/
 
-# The release of Jekyll Now that you're using
-version: v1.2.0
+# # # # Build settings # # # #
+encoding: "utf-8"
 
-# Jekyll 3 now only supports Kramdown for Markdown
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+excerpt_separator: <!--more-->
+date_format:  "%b %-d, %Y" # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true   # change to false to default to comments off site-wide
+      published: true  # default to published
+
+
+#Collections
+collections:
+  pages:
+    output: true
+    permalink: /:path
+
+
+# Filtering
+limit_posts:  0
+show_drafts:  false
+future:  false
+unpublished:  false
+
+# Conversion
+markdown: kramdown
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 kramdown:
-  # Use GitHub flavored markdown, including triple backtick fenced code blocks
-  input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
-    css_class: 'highlight'
+  input: GFM # enable github-flavored markdown
+highlighter:  rouge
+theme: # minima for new installs. leave blank if using custom theme / developing locally
+lsi:  true  # produces an index for related posts, requires classifier-reborn plugin
+incremental: false
 
-# Set the Sass partials directory, as we're using @imports
-sass:
-  style: :expanded # You might prefer to minify using :compressed
-
-# Use the following plug-ins
-gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-
-# Exclude these files from your production _site
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+include:
+  - .htaccess
+  - _pages
+  - _articles
+  - _data
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
   - CNAME
+  - config
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+  - /docs
+  - /test
+keep_files:
+  - .git
+  - .svn
