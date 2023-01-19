@@ -1,3 +1,9 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
+
 This is the personal website of Kevin Yang, hosted at [mhy-kevin-dev.github.io](mhy-kevin-dev.github.io)
 
 I’m a senior speech engineer in the tech industry. 
