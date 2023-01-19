@@ -4,6 +4,17 @@ title: Projects
 permalink: /projects/
 ---
 
+### Side Projects
+1. Participate in Hokkien ASR Challenge: [Technical report]: Weiyuan Chen and Ming-Han Yang, “[The
+DMS-ASR System for the Formosa Speech Recognition Challenge 2020](https://drive.google.com/file/d/1aSk3I5JiZHfUqRyMHShK8-zsgzlNFyGR/view), ” the Speech Signal Processing
+Workshop (SSPW 2021), Mar. 19, 2021. (in Chinese) *[Best Performance on Track3]*
+
+2. Participate in Mandarin ASR Challenge: [Technical report]: Ming-Han Yang and Berlin Chen, “[The DMS-
+ASR System for the Formosa Speech Recognition Challenge 2018](https://drive.google.com/file/d/15dWU2ISWqZS0VkPie9OsDESEPENQJH-j/view),” the 11th International Symposium on
+Chinese Spoken Language Processing (ISCSLP 2018), Nov. 26-29, 2018.
+
+3. Deployed my [Discord bot](https://github.com/mhy-kevin-dev/discord-bot) (which uses the OpenAI and SauceNAO APIs) on the Heroku cloud service platform.
+
 ### Publications
 
 1. __Ming-Han Yang__, Hung-Shin Lee, Yu-Ding Lu, Kuan-Yu Chen,Yu Tsao, Berlin Chen and Hsin-Min
@@ -25,14 +36,3 @@ recognition](https://aclanthology.org/O16-3006.pdf),” International Journal of
 Journal of Computational Linguistics and Chinese Language Processing (IJCLCLP), Vol. 21, No. 2, pp. 55-
 70, 2016. (in Chinese)
 
-### Side Projects
-1. Participate in Hokkien ASR Challenge: [Technical report]: Weiyuan Chen and Ming-Han Yang, “[The
-DMS-ASR System for the Formosa Speech Recognition Challenge 2020](https://drive.google.com/file/d/1aSk3I5JiZHfUqRyMHShK8-zsgzlNFyGR/view), ” the Speech Signal Processing
-Workshop (SSPW 2021), Mar. 19, 2021. (in Chinese) *[Best Performance on Track3]*
-
-2. Participate in Mandarin ASR Challenge: [Technical report]: Ming-Han Yang and Berlin Chen, “[The DMS-
-ASR System for the Formosa Speech Recognition Challenge 2018](https://drive.google.com/file/d/15dWU2ISWqZS0VkPie9OsDESEPENQJH-j/view),” the 11th International Symposium on
-Chinese Spoken Language Processing (ISCSLP 2018), Nov. 26-29, 2018.
-
-3. Deployed my [Discord bot](https://github.com/mhy-kevin-dev/discord-bot) (which uses the OpenAI and SauceNAO APIs) on the Heroku cloud service
-platform.
