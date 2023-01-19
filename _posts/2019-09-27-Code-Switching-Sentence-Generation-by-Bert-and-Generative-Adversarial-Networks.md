@@ -1,5 +1,7 @@
 *INTERSPEECH 2019； China Mobile Research*
 
+Medium好讀版：[點這裡](https://medium.com/@mh.yang/code-switching-sentence-generation-by-bert-and-generative-adversarial-networks-f2bb19e19e0c)
+
 ### Abstract
 相較於對單一語言做語音辨識(automatic speech recognition)的情境，想辨識語碼轉換(code-switching)的句子是更加困難的挑戰，其原因有二：
 
