@@ -43,6 +43,5 @@ code-switching大致可分類成為2種：(範例感謝學弟世弦提供！)
 未來他們想要讓這個方法能夠生成更長的code-switching的片語(phrase)或段落(segment)。
 
 ### Reference
-Code-Switching Sentence Generation by Bert and Generative Adversarial
-Networks
-https://www.isca-speech.org/archive_v0/Interspeech_2019/pdfs/2501.pdf
+[Code-Switching Sentence Generation by Bert and Generative Adversarial
+Networks](https://www.isca-speech.org/archive_v0/Interspeech_2019/pdfs/2501.pdf)
