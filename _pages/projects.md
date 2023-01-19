@@ -1,9 +1,8 @@
 ---
 layout: page
 title: Projects and Publications
-short_title: Projects/Publications
+short_title: Projects
 permalink: /projects/
-custom_css: resume
 ---
 
 ### Side Projects
