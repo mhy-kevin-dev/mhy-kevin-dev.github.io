@@ -11,19 +11,19 @@
 
 ### 流程
 
-1. 算count
+(1) 算count
  
 ```sh
 gunzip -c cna.split.txt.gz  | cut -d' ' -f2- | ngram-count -text /dev/stdin -write count.split.txt.gz
 ```
  
-2. Smoothing
+(2) Smoothing
  
 ```sh
 ~/MITLM/bin/estimate-ngram -c count.split.txt.gz -o 3 -s ModKN -wl lm0.arpa.gz
 ```
  
-3. Pruning+砍掉OOV
+(3) Pruning+砍掉OOV
 
 (tmp_vocab是字典的第一個column)
 
@@ -32,7 +32,7 @@ ngram -debug 1 -order 3 -lm lm0.arpa.gz -vocab tmp_vocab -limit-vocab -prune 1e-
 ```
 
  
-4. 把LM變成G.fst 
+(4) 把LM變成G.fst 
 
 (在lang_test底下)
 
