@@ -35,11 +35,11 @@ conda config --add channels conda-forge
 
 啟動環境 py35 後，你可以在此環境下 (py35) xxxxx@ubuntu 安裝需要的套件，有兩種方式：
 
-1. 使用 conda（以 tensorflow 為例）
+(1) 使用 conda（以 tensorflow 為例）
 
 `conda install tensorflow`
 
-2. 使用 pip（以 keras 為例）
+(2) 使用 pip（以 keras 為例）
  
 `pip install keras`
 
@@ -78,22 +78,22 @@ https://conda.io/docs/_downloads/conda-cheatsheet.pdf
 
 ### 使用以 MKL 為基礎的環境
 
-1. 修改 .condarc
+(1) 修改 .condarc
 
 `vim ~/.condarc`
 
-2. 將 - conda-forge 註解掉
+(2) 將 - conda-forge 註解掉
 `# - conda-forge`
 
-3. 更新 conda
+(3) 更新 conda
 
 `conda update conda`
 
-4. 進入 python 3.5 環境
+(4) 進入 python 3.5 環境
 
 `conda install numpy scipy scikit-learn pandas mkl-service`
 
-5. 安裝 pip 套件
+(5) 安裝 pip 套件
  
 ```sh
 pip install bob.measure bob.learn.em
@@ -103,7 +103,7 @@ conda install h5py
 pip install keras
 ```
 
-6. 設定 mkl 核心數
+(6) 設定 mkl 核心數
 
 ```py
 import mkl
