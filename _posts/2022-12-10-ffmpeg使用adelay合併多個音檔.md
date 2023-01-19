@@ -1,4 +1,3 @@
-### ffmpeg使用adelay合併多個音檔
 Medium好讀版：[點這裡](https://medium.com/@mh.yang/ffmpeg%E4%BE%9D%E4%B8%8D%E5%90%8Coffset%E5%90%88%E4%BD%B5%E5%A4%9A%E5%80%8B%E9%9F%B3%E6%AA%94-ac13ff2fb50c)
 
 ### 前言
