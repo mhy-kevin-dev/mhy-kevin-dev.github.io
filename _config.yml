@@ -20,7 +20,7 @@ name:  "Kevin Yang"  # your name or organization name
 email: "asr.mhyang@gmail.com"
 webaddress: "http://mhy-kevin-dev.github.io"  # to avoid messing with url or baseurl
 
-tagline: "life; code; coffee;"
+tagline: "life; coding; coffee;"
 description: > # this means to ignore newlines until "baseurl:"
   My personal website
 
