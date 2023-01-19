@@ -6,10 +6,6 @@ short_title: Publications
 permalink: /publications/
 ---
 
-## Thesis
-
-- __Ming-Han Yang__, “Improved neural network based acoustic modeling leveraging multi-task learning and ensemble Learning for meeting speech recognition.” Master Thesis, National Taiwan Normal University, July 2016. (Advisor: Prof. Berlin Chen)
-
 ## Journal Papers
 
 1. __Ming-Han Yang__, Yao-Chi Hsu, Hsiao-Tsung Hung, Ying-Wen Chen, Kuan-Yu Chen and Berlin Chen,
@@ -43,3 +39,7 @@ Francisco, USA, 2016.
 
 4. Yao-Chi Hsu, __Ming-Han Yang__, Hsiao-Tsung Hung, Yuwen Hsiung, Yao-Ting Sung, Berlin Chen, “Exploring combinations of various deep neural network based acoustic models and classification techniques for Mandarin mispronunciation detection,” the 27th International Conference on Computational Linguistics and Speech Processing (ROCLING 2015), Hsinchu, Taiwan, 2015. (in Chinese)
 
+
+## Thesis
+
+- __Ming-Han Yang__, “Improved neural network based acoustic modeling leveraging multi-task learning and ensemble Learning for meeting speech recognition.” Master Thesis, National Taiwan Normal University, July 2016. (Advisor: Prof. Berlin Chen)
