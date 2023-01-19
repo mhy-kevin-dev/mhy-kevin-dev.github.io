@@ -1,4 +1,8 @@
-# WSL2刪除檔案仍沒釋放硬碟空間的解法
+### WSL2刪除檔案仍沒釋放硬碟空間的解法
+
+Medium好讀版：[點這裡](https://medium.com/@mh.yang/wsl2%E5%88%AA%E9%99%A4%E6%AA%94%E6%A1%88%E4%BB%8D%E6%B2%92%E9%87%8B%E6%94%BE%E7%A1%AC%E7%A2%9F%E7%A9%BA%E9%96%93%E7%9A%84%E8%A7%A3%E6%B3%95-4a7ac16f1ee3)
+
+
 ![示意圖](https://miro.medium.com/max/640/1*NYWAPnYXGsmLnmGU88dhAg.png)
 
 ### 前言
