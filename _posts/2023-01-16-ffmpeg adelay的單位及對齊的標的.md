@@ -1,5 +1,3 @@
-### ffmpeg adelay的單位及對齊的標的
-
 Medium好讀版：[點這裡](https://medium.com/@mh.yang/ffmpeg-adelay%E7%9A%84%E5%96%AE%E4%BD%8D%E5%8F%8A%E5%B0%8D%E9%BD%8A%E7%9A%84%E6%A8%99%E7%9A%84-bcd836976cd6)
 
 ### 前言
