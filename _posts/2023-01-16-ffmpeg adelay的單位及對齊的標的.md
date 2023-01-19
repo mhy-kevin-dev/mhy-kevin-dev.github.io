@@ -13,13 +13,8 @@ Medium好讀版：[點這裡](https://medium.com/@mh.yang/ffmpeg-adelay%E7%9A%84
 
 更具體來説，上述的2個問題：
 
-1. timestamp是對齊誰？
-
-- 是所有音檔都與第一個音檔算offset呢？(以下簡稱FIRST)還是彼此之間算offset (以下簡稱BETWEEN)。
-
-2. adelay的單位是秒還是毫秒？
-
-- 根據ffmpeg的手冊，是用毫秒沒錯。
+1. timestamp是對齊誰？ 是所有音檔都與第一個音檔算offset呢？(以下簡稱FIRST)還是彼此之間算offset (以下簡稱BETWEEN)。
+2. adelay的單位是秒還是毫秒？ 根據ffmpeg的手冊，是用毫秒沒錯。
 
 > *8.11 adelay*
 > *Delay one or more audio channels.*
