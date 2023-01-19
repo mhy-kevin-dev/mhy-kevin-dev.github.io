@@ -52,14 +52,14 @@ youtube:
   title: 'YouTube'
   fa-icon: 'fa-youtube'
 
-rss:
-  id: '/feed.xml'
-  href:
-  title: 'RSS'
-  fa-icon: 'fa-rss-square'
-
 medium:
   id: '@mh.yang'
   href: 'https://medium.com/'
   title: 'Medium'
   fa-icon: 'fa-medium'
+
+rss:
+  id: '/feed.xml'
+  href:
+  title: 'RSS'
+  fa-icon: 'fa-rss-square'
