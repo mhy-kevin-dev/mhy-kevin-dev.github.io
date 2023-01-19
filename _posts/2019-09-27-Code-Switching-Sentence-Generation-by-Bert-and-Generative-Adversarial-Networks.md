@@ -1,5 +1,3 @@
-# Code-Switching Sentence Generation by Bert and Generative Adversarial Networks
-
 *INTERSPEECH 2019； China Mobile Research*
 
 ### Abstract
