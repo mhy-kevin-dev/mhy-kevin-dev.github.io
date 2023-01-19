@@ -7,7 +7,7 @@
 
 - Kaldi
 
-- MITLM
+- MITLM  (安裝步驟看[這篇](https://mhy-kevin-dev.github.io/install-MITLM/))
 
 ### 流程
 
