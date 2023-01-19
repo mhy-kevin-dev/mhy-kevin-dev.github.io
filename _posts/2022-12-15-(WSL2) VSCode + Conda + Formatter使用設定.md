@@ -1,5 +1,3 @@
-### WSL2: VSCode + Conda + Formatter使用設定
-
 Medium好讀版：[點這裡](https://medium.com/@mh.yang/wsl2-vscode-conda-formatter%E4%BD%BF%E7%94%A8%E8%A8%AD%E5%AE%9A-acca390e94c8)
 
 ### 前言
