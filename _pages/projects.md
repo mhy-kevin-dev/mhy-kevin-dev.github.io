@@ -5,7 +5,7 @@ short_title: Projects
 permalink: /projects/
 ---
 
-### Side Projects
+## Side Projects
 
 1. Deployed my [Discord bot](https://github.com/mhy-kevin-dev/discord-bot) (which uses the OpenAI and SauceNAO APIs) on the Heroku cloud service platform.
 
@@ -18,7 +18,7 @@ ASR System for the Formosa Speech Recognition Challenge 2018](https://drive.goog
 Chinese Spoken Language Processing (ISCSLP 2018), Nov. 26-29, 2018.
 
 
-### Publications
+## Publications
 
 #### Thesis
 
