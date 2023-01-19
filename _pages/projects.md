@@ -1,3 +1,9 @@
+---
+layout: page
+title: Projects
+permalink: /projects/
+---
+
 ### Publications
 
 1. __Ming-Han Yang__, Hung-Shin Lee, Yu-Ding Lu, Kuan-Yu Chen,Yu Tsao, Berlin Chen and Hsin-Min
