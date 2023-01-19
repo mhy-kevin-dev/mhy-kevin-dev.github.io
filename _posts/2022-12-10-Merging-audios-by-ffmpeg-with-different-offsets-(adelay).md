@@ -1,4 +1,5 @@
-# ffmpeg使用adelay合併多個音檔
+### ffmpeg使用adelay合併多個音檔
+Medium好讀版：[點這裡](https://medium.com/@mh.yang/ffmpeg%E4%BE%9D%E4%B8%8D%E5%90%8Coffset%E5%90%88%E4%BD%B5%E5%A4%9A%E5%80%8B%E9%9F%B3%E6%AA%94-ac13ff2fb50c)
 
 ### 前言
 最近進行會議錄音處理時，有個功能需要根據會議ID，到DB撈出與會人員的錄音和當時的辨識結果，依照DB記錄的timestamp合成一份完整的會議錄音和字幕檔。
