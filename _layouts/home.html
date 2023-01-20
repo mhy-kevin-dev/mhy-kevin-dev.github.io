@@ -5,9 +5,11 @@ title: Posts
 layout: default
 ---
 
-<div class="home">
-
-    {% include posts_list.html %}
-
-</div>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
 
