@@ -12,6 +12,7 @@ permalink: /projects/
   2. Choose whether to use regression or classification for training. (will do cross-validation automatically)
   3. With a single click, the system will compare the results of multiple machine learning methods.
   4. Finally, import your test data for prediction.
+
 ![](https://github.com/mhy-kevin-dev/AutoMLKit/raw/master/screenshots/regression.png)
 
 - Deployed my [Discord bot](https://github.com/mhy-kevin-dev/discord-bot) (which uses the OpenAI and SauceNAO APIs) on the Heroku cloud service platform.
