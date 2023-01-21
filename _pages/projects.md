@@ -16,7 +16,7 @@ Developed [AutoMLKit](https://github.com/mhy-kevin-dev/AutoMLKit) to perform mac
 
 
 ### Discordbot
-A [Discord bot](https://github.com/mhy-kevin-dev/discord-bot)  (which uses the OpenAI and SauceNAO APIs) was developed to play with 50 users on the Heroku cloud platform.
+A [Discord bot](https://github.com/mhy-kevin-dev/discord-bot)  (which uses the OpenAI and SauceNAO APIs) was developed to play with 50+ users on the Heroku cloud platform.
 
 - Repo: [https://github.com/mhy-kevin-dev/discord-bot](https://github.com/mhy-kevin-dev/discord-bot)
 
