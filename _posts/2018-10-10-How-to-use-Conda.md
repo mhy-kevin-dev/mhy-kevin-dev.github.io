@@ -27,6 +27,10 @@ conda config --add channels conda-forge
 
 `conda create -n py35 python=3.5`
 
+如果要從requirements.txt建立環境，則
+
+`conda create --name <env> --file requirements.txt`
+
 ### 啟動環境（以 py27 為例）
 
 `source activate py27`
