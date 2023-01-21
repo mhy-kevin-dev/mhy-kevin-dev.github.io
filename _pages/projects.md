@@ -10,7 +10,7 @@ You can view many of my coding projects on my [GitHib page](https://github.com/m
 ### AutoMLKit
 Developed [AutoMLKit](https://github.com/mhy-kevin-dev/AutoMLKit) to perform machine learning tasks in an elegant manner. Check [README](https://github.com/mhy-kevin-dev/AutoMLKit/blob/master/README.md) for more details!
 
-- Repo: https://github.com/mhy-kevin-dev/AutoMLKit
+- Repo: [https://github.com/mhy-kevin-dev/AutoMLKit](https://github.com/mhy-kevin-dev/AutoMLKit)
   
 ![](https://github.com/mhy-kevin-dev/AutoMLKit/raw/master/screenshots/regression.png)
 
@@ -18,7 +18,7 @@ Developed [AutoMLKit](https://github.com/mhy-kevin-dev/AutoMLKit) to perform mac
 ### Discordbot
 A [Discord bot](https://github.com/mhy-kevin-dev/discord-bot)  (which uses the OpenAI and SauceNAO APIs) was developed to play with 50 users on the Heroku cloud platform.
 
-- Repo: https://github.com/mhy-kevin-dev/discord-bot
+- Repo: [https://github.com/mhy-kevin-dev/discord-bot](https://github.com/mhy-kevin-dev/discord-bot)
 
 
 ### Participate in Hokkien ASR Challenge
