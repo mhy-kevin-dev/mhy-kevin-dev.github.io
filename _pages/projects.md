@@ -4,7 +4,7 @@ title: Projects
 short_title: Projects
 permalink: /projects/
 ---
-You can view many of my coding projects on my [GitHib page](https://github.com/mhy-kevin-dev).
+You can view my projects [my GitHib page](https://github.com/mhy-kevin-dev).
 
 
 ### AutoMLKit
