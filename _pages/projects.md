@@ -33,4 +33,4 @@ Workshop (SSPW 2021), Mar. 19, 2021. (in Chinese)
 A technical report: Ming-Han Yang and Berlin Chen, “[The DMS-
 ASR System for the Formosa Speech Recognition Challenge 2018](https://drive.google.com/file/d/15dWU2ISWqZS0VkPie9OsDESEPENQJH-j/view),” the 11th International Symposium on Chinese Spoken Language Processing (ISCSLP 2018), Nov. 26-29, 2018.
 
-- *Our system (13.6%) beated iFlyTek's (18.8%) and Goolge's (20.6%) commercial systems.*
+- *Our system (13.5%) beated iFlyTek's (18.8%) and Goolge's (20.6%) commercial systems.*
