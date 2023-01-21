@@ -7,9 +7,9 @@ permalink: /projects/
 
 ## Side Projects
 
-- Developed a toolkit: [AutoMLKit](https://github.com/mhy-kevin-dev/AutoMLKit) to perform machine learning tasks in an elegant manner. 
+- Developed [AutoMLKit](https://github.com/mhy-kevin-dev/AutoMLKit) to perform machine learning tasks in an elegant manner. 
   
-![](https://github.com/mhy-kevin-dev/AutoMLKit/raw/master/screenshots/regression.png)
+![img|200](https://github.com/mhy-kevin-dev/AutoMLKit/raw/master/screenshots/regression.png)
 
 - Deployed my [Discord bot](https://github.com/mhy-kevin-dev/discord-bot) (which uses the OpenAI and SauceNAO APIs) on the Heroku cloud service platform.
 
