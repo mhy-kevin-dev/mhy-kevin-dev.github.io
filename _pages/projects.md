@@ -15,10 +15,10 @@ Developed [AutoMLKit](https://github.com/mhy-kevin-dev/AutoMLKit) to perform mac
 ![](https://github.com/mhy-kevin-dev/AutoMLKit/raw/master/screenshots/regression.png)
 
 
-### Discordbot
-A [Discord bot](https://github.com/mhy-kevin-dev/discord-bot)  (which uses the OpenAI and SauceNAO APIs) was developed to play with 50+ users on the Heroku cloud platform.
+### MashuDiscordbot
+A [Discord bot](https://github.com/mhy-kevin-dev/Mashu-discord-bot)  (which uses the OpenAI and SauceNAO APIs) was developed to play with 50+ users on the Heroku cloud platform.
 
-- Repo: [https://github.com/mhy-kevin-dev/discord-bot](https://github.com/mhy-kevin-dev/discord-bot)
+- Repo: [https://github.com/mhy-kevin-dev/Mashu-discord-bot](https://github.com/mhy-kevin-dev/Mashu-discord-bot)
 
 
 ### Participate in Hokkien ASR Challenge
